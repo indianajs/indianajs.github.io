@@ -1,0 +1,66 @@
+body {
+    /*padding-top: 50px;  Whatever the height of your navbar is; the*/
+                             /*default is 50px */
+                             /*background-color: #fff8e1;*/
+}
+
+header{
+    /*background-color: #3f51b5; indigo*/
+    /*background-color:  #cddc39; yello*/
+    background-color: #ffc107; /*amber*/
+    color: black;
+}
+
+.materialshadow{
+
+    -webkit-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.26);
+    box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.26);
+}
+
+.svgshadow{
+    filter: drop-shadow(0px 5px 5px #23CF25);
+}
+
+h1{
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+h2{
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
+.navbar{
+    padding: 0;
+    margin-bottom: 0;
+    border-radius: 0px;
+    min-height: 0px;
+}
+
+img{
+    height: 100px;
+    width: auto;
+}
+
+.fixed{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    transform: translateY(0px);
+}
+
+img.small{
+    height: 50px;
+}
+
+.headroom {
+    transition: transform 200ms linear;
+}
+
+ul{
+    margin-bottom: 0px;
+}
+
+/*radar color: #ff6f00*/
